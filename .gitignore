@@ -1,4 +1,5 @@
 *.elc
-/auto-save-list/.saves-6086-felix_behr_spectos~
+/auto-save-list
 /recentf
 *.el#
+/elpa

@@ -11,6 +11,9 @@
 (require 'swiper-config)
 (require 'ivy-config)
 
+(require 'git-gutter-config)
+(require 'magit-config)
+
 ;; load the programming language related stuff
 
 (provide 'setup-config)
