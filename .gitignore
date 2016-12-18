@@ -4,3 +4,4 @@
 *.el#
 /elpa
 /recentf~
+/eshell
