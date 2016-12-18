@@ -11,6 +11,8 @@
 (require 'swiper-config)
 (require 'ivy-config)
 
+(require 'sml-config)
+
 (require 'git-gutter-config)
 (require 'magit-config)
 
