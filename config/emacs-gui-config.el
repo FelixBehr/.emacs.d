@@ -1,7 +1,7 @@
-(use-package base16-theme
+(use-package arjen-grey-theme
   :ensure t
   :config
-  (load-theme 'base16-default-dark))
+  (load-theme 'arjen-grey))
 
 (menu-bar-mode 0)
 (scroll-bar-mode 0)

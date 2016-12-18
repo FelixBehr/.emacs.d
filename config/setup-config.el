@@ -11,11 +11,19 @@
 (require 'swiper-config)
 (require 'ivy-config)
 
+(require 'company-config)
+
 (require 'sml-config)
 
 (require 'git-gutter-config)
 (require 'magit-config)
+(require 'smerge-config)
+
+(require 'undotree-config)
+
+(require 'smartparens-config)
 
 ;; load the programming language related stuff
+(require 'haskell-config)
 
 (provide 'setup-config)
