@@ -13,6 +13,8 @@
 
 (require 'company-config)
 
+(require 'flycheck-config)
+
 (require 'sml-config)
 
 (require 'git-gutter-config)
@@ -25,5 +27,8 @@
 
 ;; load the programming language related stuff
 (require 'haskell-config)
+(require 'html-config)
+(require 'javascript-config)
+(require 'php-config)
 
 (provide 'setup-config)

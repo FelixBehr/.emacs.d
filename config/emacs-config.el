@@ -10,4 +10,15 @@
  kept-old-versions 2
  version-control t)       ; use versioned backups
 
+(use-package exec-path-from-shell
+  :ensure t
+  :config
+  (exec-path-from-shell-initialize))
+
+(defun indent-buffer ()
+  (interactive)
+  (save-excursion
+    (indent-region (point-min) (point-max) nil)))
+(global-set-key (kbd "C-M-L") 'indent-buffer)
+
 (provide 'emacs-config)
