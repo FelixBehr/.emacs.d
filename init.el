@@ -10,7 +10,7 @@
  '(js2-bounce-indent-p t)
  '(package-selected-packages
    (quote
-    (exec-path-from-shell tern js2-mode web-mode php-mode dimish undo-tree arjen-grey-theme smart-mode-line-powerline-theme flycheck all-the-icons projectile f company haskell-mode smart-mode-line sml git-gutter gitgutter magit base16-theme peacock-theme use-package))))
+    (php-cs-fixer exec-path-from-shell tern js2-mode web-mode php-mode dimish undo-tree arjen-grey-theme smart-mode-line-powerline-theme flycheck all-the-icons projectile f company haskell-mode smart-mode-line sml git-gutter gitgutter magit base16-theme peacock-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -31,6 +31,7 @@
   (file-name-directory emacs-init-file))
 (defvar emacs-config-dir
   (expand-file-name "config" emacs-init-dir))
-
+(defvar emacs-siteload-lisp-dir
+  (expand-file-name "siteload-lisp" emacs-init-dir))
 (add-to-list 'load-path emacs-config-dir)
 (require 'setup-config)
