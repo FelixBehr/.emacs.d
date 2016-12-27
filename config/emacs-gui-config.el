@@ -9,6 +9,10 @@
 
 (fringe-mode 12)
 
-(set-face-attribute 'default nil :font "FiraCodeMedium 14")
+(set-face-attribute 'default nil :font "FiraCodeMedium 13")
+
+(global-set-key (kbd "C--") 'text-scale-decrease)
+(global-set-key (kbd "C-+") 'text-scale-increase)
+(global-set-key (kbd "C-#") 'text-scale-adjust)
 
 (provide 'emacs-gui-config)
