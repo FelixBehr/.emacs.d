@@ -15,6 +15,8 @@
 
 (require 'flycheck-config)
 
+(require 'po-config) ;; config for po-mode (gettext translation files)
+
 (require 'sml-config)
 
 (require 'git-gutter-config)
