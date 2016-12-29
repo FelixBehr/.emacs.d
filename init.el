@@ -10,7 +10,7 @@
  '(js2-bounce-indent-p t)
  '(package-selected-packages
    (quote
-    (po-mode php-cs-fixer exec-path-from-shell tern js2-mode web-mode php-mode dimish undo-tree arjen-grey-theme smart-mode-line-powerline-theme flycheck all-the-icons projectile f company haskell-mode smart-mode-line sml git-gutter gitgutter magit base16-theme peacock-theme use-package))))
+    (counsel-projectile yaml-mode scss-mode po-mode php-cs-fixer exec-path-from-shell tern js2-mode web-mode php-mode dimish undo-tree arjen-grey-theme smart-mode-line-powerline-theme flycheck all-the-icons projectile f company haskell-mode smart-mode-line sml git-gutter gitgutter magit base16-theme peacock-theme use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

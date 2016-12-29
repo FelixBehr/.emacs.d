@@ -15,7 +15,7 @@
 
 (require 'flycheck-config)
 
-(require 'po-config) ;; config for po-mode (gettext translation files)
+(require 'projectile-config)
 
 (require 'sml-config)
 
@@ -32,5 +32,7 @@
 (require 'html-config)
 (require 'javascript-config)
 (require 'php-config)
+(require 'po-config) ;; config for po-mode (gettext translation files)
+(require 'scss-config)
 
 (provide 'setup-config)
