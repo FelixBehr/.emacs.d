@@ -11,6 +11,8 @@
 (require 'swiper-config)
 (require 'ivy-config)
 
+(require 'browse-kill-ring-config)
+
 (require 'company-config)
 
 (require 'flycheck-config)
