@@ -26,6 +26,7 @@
 (require 'undotree-config)
 
 (require 'smartparens-config)
+(require 'rainbow-delimiters-config)
 
 ;; load the programming language related stuff
 (require 'haskell-config)
