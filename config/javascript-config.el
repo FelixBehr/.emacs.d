@@ -4,6 +4,7 @@
 (use-package js2-mode
   :ensure t
   :config
+  (setq indent-tabs-mode nil)
   (add-hook 'js2-mode-hook 'tern-mode)
   (custom-set-variables
    '(js2-basic-offset 2)

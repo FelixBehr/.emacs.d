@@ -1,5 +1,6 @@
 (setq visible-bell t)
 (setq inhibit-startup-message t)
+(show-paren-mode)
 
 (setq
  backup-by-copying t      ; don't clobber symlinks
@@ -20,5 +21,10 @@
   (save-excursion
     (indent-region (point-min) (point-max) nil)))
 (global-set-key (kbd "C-M-L") 'indent-buffer)
+
+(use-package editorconfig
+  :ensure t
+  :config
+  (editorconfig-mode t))
 
 (provide 'emacs-config)
