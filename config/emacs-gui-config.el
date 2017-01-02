@@ -1,7 +1,7 @@
-(use-package arjen-grey-theme
+(use-package solarized-theme
   :ensure t
   :config
-  (load-theme 'arjen-grey))
+  (load-theme 'solarized-dark))
 
 (menu-bar-mode 0)
 (scroll-bar-mode 0)

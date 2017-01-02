@@ -3,6 +3,8 @@
   :config
   (add-hook 'php-mode-hook 'php-enable-psr2-coding-style))
 
+(use-package phpunit
+  :ensure t)
 
 (add-to-list 'load-path
 	     (expand-file-name "php-cs-fixer" emacs-siteload-lisp-dir))
