@@ -25,6 +25,8 @@
 (require 'magit-config)
 (require 'smerge-config)
 
+(require 'dsvn-config)
+
 (require 'undotree-config)
 
 (require 'smartparens-config)
