@@ -1,7 +1,7 @@
-(use-package solarized-theme
+(use-package dracula-theme
   :ensure t
   :config
-  (load-theme 'solarized-dark))
+  (load-theme 'dracula t))
 
 (menu-bar-mode 0)
 (scroll-bar-mode 0)

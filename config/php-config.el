@@ -1,9 +1,10 @@
 (use-package php-mode
   :ensure t
   :config
-  (add-hook 'php-mode-hook 'php-enable-psr2-coding-style))
+  (add-hook 'php-mode-hook 'php-enable-psr2-coding-style)
+  (add-hook 'php-mode-hook 'php-eldoc-enable))
 
-(use-package phpunit
+(use-package php-eldoc
   :ensure t)
 
 (add-to-list 'load-path

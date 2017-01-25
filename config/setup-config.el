@@ -13,6 +13,8 @@
 
 (require 'browse-kill-ring-config)
 
+(require 'expand-region-config)
+
 (require 'company-config)
 
 (require 'flycheck-config)

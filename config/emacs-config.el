@@ -1,6 +1,7 @@
 (setq visible-bell t)
 (setq inhibit-startup-message t)
 (show-paren-mode)
+(display-time-mode)
 
 (setq
  backup-by-copying t      ; don't clobber symlinks
